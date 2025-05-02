@@ -24,3 +24,27 @@ german version!
 ```
 python /data/MaxxFan/setup-de.py
 ```
+
+## STEP 4
+Change PageSettingsDisplay.qml
+Add the following line before the GUI-Mods entry: 
+```
+RB_Menu { }  //RB Mods
+```
+
+![image](https://github.com/user-attachments/assets/4bdf2646-9ca4-4011-be0d-3f08fe6b2574)
+
+
+
+## STEP 5
+Change main.qml
+Add the following line after "id: rootWindow"
+```
+RB_PageMaxxFan {}  //RB Mods MaxxFan
+```
+
+![image](https://github.com/user-attachments/assets/6c465aa9-2ceb-4f9e-a726-f2b66089b7f9)
+
+
+
+
