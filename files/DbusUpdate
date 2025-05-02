@@ -8,12 +8,12 @@
 {"path":"/Settings/RoadbuckMods/MaxxFan/ImageAnimation", "default":0, "min":0, "max":1}
 {"path":"/Settings/RoadbuckMods/MaxxFan/IrSignal", "default":"close"}
 {"path":"/Settings/RoadbuckMods/MaxxFan/Pressure", "default":0, "min":0, "max":10000}
-{"path":"/Settings/RoadbuckMods/MaxxFan/SetFanSpeed", "default":0, "min":0, "max":10}
+{"path":"/Settings/RoadbuckMods/MaxxFan/SetFanspeed", "default":0, "min":0, "max":10}
 {"path":"/Settings/RoadbuckMods/MaxxFan/SetTemperature", "default":0, "min":0, "max":35}
 {"path":"/Settings/RoadbuckMods/MaxxFan/ShowMaxxFanOverview", "default":0, "min":0, "max":1}
 {"path":"/Settings/RoadbuckMods/MaxxFan/StatusAirflow", "default":""}
 {"path":"/Settings/RoadbuckMods/MaxxFan/StatusAutoMode", "default":0, "min":0, "max":1}
-{"path":"/Settings/RoadbuckMods/MaxxFan/StatusFanSpeed", "default":0, "min":0, "max":10}
+{"path":"/Settings/RoadbuckMods/MaxxFan/StatusFanspeed", "default":0, "min":0, "max":10}
 {"path":"/Settings/RoadbuckMods/MaxxFan/StatusOpen", "default":0, "min":0, "max":1}
 {"path":"/Settings/RoadbuckMods/MaxxFan/StatusTemperature", "default":0, "min":0, "max":50}
 {"path":"/Settings/RoadbuckMods/MaxxFan/StatusTestmode", "default":0, "min":0, "max":1}
