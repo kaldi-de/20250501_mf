@@ -24,3 +24,11 @@ german version!
 ```
 python /data/MaxxFan/setup-de.py
 ```
+
+
+
+
+Change main.qml
+
+RB_PageMaxxFan {}  //RB Mods MaxxFan
+
