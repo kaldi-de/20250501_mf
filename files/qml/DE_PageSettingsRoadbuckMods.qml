@@ -64,7 +64,7 @@ MbPage {
 			{
 				description: qsTr("RelaisBox")
 				subpage: Component { PageSettingsRoadbuckRelayBox {} }
-				show: showRelays.value >= 0
+				show: showRelayBox.value >= 0
 			}
 
 			MbSubMenu
