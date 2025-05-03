@@ -4,7 +4,7 @@
 {"path":"/Settings/RoadbuckMods/MaxxFan/Firmware", "default":""}
 {"path":"/Settings/RoadbuckMods/MaxxFan/Humidity", "default":0, "min":0, "max":100}
 {"path":"/Settings/RoadbuckMods/MaxxFan/HumidityOffset", "default":0, "min":0, "max":100}
-{"path":"/Settings/RoadbuckMods/MaxxFan/HumiditySensor", "default":""}
+{"path":"/Settings/RoadbuckMods/MaxxFan/HumiditySensor", "default":"ruuvi_"}
 {"path":"/Settings/RoadbuckMods/MaxxFan/ImageAnimation", "default":0, "min":0, "max":1}
 {"path":"/Settings/RoadbuckMods/MaxxFan/IrSignal", "default":"close"}
 {"path":"/Settings/RoadbuckMods/MaxxFan/Pressure", "default":0, "min":0, "max":10000}
@@ -17,8 +17,8 @@
 {"path":"/Settings/RoadbuckMods/MaxxFan/StatusOpen", "default":0, "min":0, "max":1}
 {"path":"/Settings/RoadbuckMods/MaxxFan/StatusTemperature", "default":0, "min":0, "max":50}
 {"path":"/Settings/RoadbuckMods/MaxxFan/StatusTestmode", "default":0, "min":0, "max":1}
-{"path":"/Settings/RoadbuckMods/MaxxFan/TempInsideSensor", "default":0.0, "min":0, "max":100}
-{"path":"/Settings/RoadbuckMods/MaxxFan/TempOutsideSensor", "default":0.0, "min":0, "max":100}
+{"path":"/Settings/RoadbuckMods/MaxxFan/TempInsideSensor", "default":"ruuvi_"}
+{"path":"/Settings/RoadbuckMods/MaxxFan/TempOutsideSensor", "default":"ruuvi_"}
 {"path":"/Settings/RoadbuckMods/MaxxFan/Temperature", "default":0.0, "min":0, "max":100}
 {"path":"/Settings/RoadbuckMods/MaxxFan/TemperatureOffset", "default":0.0, "min":0, "max":100}
 {"path":"/Settings/RoadbuckMods/MaxxFan/UseInternalTempSensor", "default":0, "min":0, "max":1}
