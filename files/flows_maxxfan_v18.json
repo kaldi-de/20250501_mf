@@ -1,0 +1,5515 @@
+[
+    {
+        "id": "ea9d3508e6e817af",
+        "type": "tab",
+        "label": "MaxxFan",
+        "disabled": false,
+        "locked": true,
+        "info": "MaxxFan Controller by Roadbuck",
+        "env": []
+    },
+    {
+        "id": "6c3b875626b41136",
+        "type": "group",
+        "z": "ea9d3508e6e817af",
+        "name": "IR SIGNAL",
+        "style": {
+            "stroke": "#92d04f",
+            "fill": "#e3f3d3",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "9f1ef33631fcbc1c",
+            "97d49ef120701dec",
+            "184a92e76778aaf1",
+            "990c68b542c295f4",
+            "55a6790642a44aef",
+            "0713a575d08c1a9f",
+            "0c806e5b7a173a56",
+            "f1cc8c4ab9c26f21",
+            "dec0c98c93b21819",
+            "8a73239d3d6dfa83",
+            "4ab831014e27d4ce",
+            "415c6a01a28dc8fd",
+            "4cae1d680f77227c",
+            "4a10c2c15f5a2fcb",
+            "2e55120cf250c8e1",
+            "593b25766ecb8330"
+        ],
+        "x": 1294,
+        "y": 39,
+        "w": 992,
+        "h": 202
+    },
+    {
+        "id": "a8fb6eb49d1d087e",
+        "type": "group",
+        "z": "ea9d3508e6e817af",
+        "name": "MQTT-Data -> D-BUS",
+        "style": {
+            "stroke": "#777777",
+            "fill": "#d1d1d1",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "b67d8f52bf4ac9e8",
+            "b5750e53622f2ee4",
+            "a0d7740fa9305239",
+            "0688be463ba2532f",
+            "f29b4927b4bbd2cf",
+            "fcfd4183377ba5b3",
+            "f88f50525e0fcc6e",
+            "bb503db3e134bfdd",
+            "920471e16f44b94d",
+            "2ff47de777990d7e",
+            "3c144d102fc8d073",
+            "e2441d0742013f85",
+            "ce5a51171c95529c",
+            "b8f9a87fe2a48478",
+            "2ba716f2dac3aa24",
+            "3f9f2c1c377663f6",
+            "8fa6f1fb4731d056",
+            "f1fc3b9f89ba0990",
+            "824956e195e8beec",
+            "e53b0bcfa0603708",
+            "0e8bf35b13cbd058",
+            "9c22f5b3ccb7fff0",
+            "15c250acaeb16e38",
+            "b9d67405d39b465b",
+            "4df6339dc46e3e67"
+        ],
+        "x": 54,
+        "y": 259,
+        "w": 1112,
+        "h": 462
+    },
+    {
+        "id": "c87b0f4d7febf152",
+        "type": "group",
+        "z": "ea9d3508e6e817af",
+        "name": "USB/Serial - Controller",
+        "style": {
+            "stroke": "#ff0000",
+            "fill": "#ffbfbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "6f1fbd91e01509d0",
+            "74b82f50656a3954",
+            "46e5f18bfddd5e98",
+            "7d23c98848608fa5"
+        ],
+        "x": 64,
+        "y": 1899,
+        "w": 942,
+        "h": 82
+    },
+    {
+        "id": "d5368311f8e95514",
+        "type": "group",
+        "z": "ea9d3508e6e817af",
+        "name": "WiFi - Controller",
+        "style": {
+            "stroke": "#ff0000",
+            "fill": "#ffbfbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "33fb3459e7d80756",
+            "26570a92b56cadda",
+            "f16658214aba0fa0"
+        ],
+        "x": 64,
+        "y": 1999,
+        "w": 942,
+        "h": 82
+    },
+    {
+        "id": "cdbb9ce8e19ff4cc",
+        "type": "group",
+        "z": "ea9d3508e6e817af",
+        "name": "Context-Data",
+        "style": {
+            "stroke": "#777777",
+            "fill": "#d1d1d1",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "6335160ac1ef6a74",
+            "b2c4c8845fa646e6",
+            "90387869f66982be",
+            "f8a22b9f27b04ec0",
+            "09671d1832469125",
+            "4fd8d86d3e7464f6",
+            "f2c6906f0274fc72",
+            "7d4ac60718ffb9fb",
+            "bc066292dd8cfb66",
+            "d33cff82baa6e8fc",
+            "1fb0a63aa80ac739",
+            "e260d6528a6ba376",
+            "08f9ec94c16d8f9f",
+            "04df5fccf179b6c1",
+            "5baeaab41a53c9dc",
+            "95b78862e916ad98",
+            "1c17e873b789dbc5",
+            "6ccd170e929ccdc2",
+            "62a4e681673449a5",
+            "8918f937b4d4e33a",
+            "83d5e1f555013d86"
+        ],
+        "x": 54,
+        "y": 799,
+        "w": 1412,
+        "h": 322
+    },
+    {
+        "id": "a5b2a9f3e8b49461",
+        "type": "group",
+        "z": "ea9d3508e6e817af",
+        "name": "AUTO-MODE",
+        "style": {
+            "stroke": "#0070c0",
+            "fill": "#bfdbef",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "7df3143ddf8ebf5d",
+            "59dd3bcd7c3966d8",
+            "be45451d148a35d4",
+            "8dc697f2c755a727",
+            "0874ff463eecffbf",
+            "46b21cb8f0496281",
+            "6948a6e741f98ecd",
+            "58882b26b5ce2c15",
+            "684f94fc96ea5399",
+            "55e80d747118bb91",
+            "2976a9732e3f8b2d",
+            "6ad93e9395bdcea6",
+            "0b2ffca6de95df39",
+            "7392086441d4a947",
+            "06f3885e547667e9",
+            "adc5663dc87e3678",
+            "bc75d08e1f55bdf4",
+            "beb5f1908effa5e4",
+            "0dcdd2f74ae66675",
+            "8f89fbc19a7b3eca",
+            "cc35ec1e08a6cbf0",
+            "642f23b3a5047c45",
+            "f63d67e247bc235e",
+            "1e5a36177c8583b9"
+        ],
+        "x": 54,
+        "y": 1139,
+        "w": 1572,
+        "h": 322
+    },
+    {
+        "id": "badef575c50faa15",
+        "type": "group",
+        "z": "ea9d3508e6e817af",
+        "name": "AUTO-MODE Controller (Process)",
+        "style": {
+            "stroke": "#0070c0",
+            "fill": "#bfdbef",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "cb1faec6d3c95d57",
+            "7579e77903a8bcab",
+            "c7db15eeeb81837f",
+            "e0c50f72e6447f84",
+            "4f0fc5cc14efab8e",
+            "9d54e65fdacd7876",
+            "09812030e6136cae",
+            "0dd8cf053c357f08",
+            "50e789a693d18e7d",
+            "7bebae8f3880cea8",
+            "38d4d3e8e138bc58",
+            "bb992d660de0fbef",
+            "ebd64ce977ce7e75",
+            "b19665e3752ca236",
+            "70638269d67ad69e",
+            "ec7189b287368726",
+            "c72bcc5cc5122b37",
+            "c99e44cecc0cd77c",
+            "f3b947a34cd1b473",
+            "f50e57da1c9475d1",
+            "f9a30e008c27af9c",
+            "3f8dfb664f68eb7a"
+        ],
+        "x": 54,
+        "y": 1479,
+        "w": 1232,
+        "h": 402
+    },
+    {
+        "id": "463fb91c39d09fcd",
+        "type": "group",
+        "z": "ea9d3508e6e817af",
+        "name": "Temperature-Sensor?",
+        "style": {
+            "label": true,
+            "stroke": "#92d04f",
+            "fill": "#e3f3d3",
+            "color": "#000000"
+        },
+        "nodes": [
+            "2ed91832a5730710",
+            "64cdd81e2b546de7",
+            "e273a0f6ee92198b",
+            "59a2a14d1a7a7a80",
+            "525b3f6df20663ce",
+            "617354ae3de37ed4",
+            "b36cb206a97cc49e",
+            "a513228f67e9c18b",
+            "56f141a1c37a2847",
+            "2cdf13881b32496a",
+            "cea36072097d12f6"
+        ],
+        "x": 54,
+        "y": 19,
+        "w": 1212,
+        "h": 222
+    },
+    {
+        "id": "bdb000e48e48752a",
+        "type": "group",
+        "z": "ea9d3508e6e817af",
+        "name": "Connection Type Info",
+        "style": {
+            "stroke": "#92d04f",
+            "fill": "#e3f3d3",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "1c3cfea6fd6d277d",
+            "107b3561e018abaf",
+            "39e318752132934c",
+            "c7b16313359e81ac",
+            "02add44b68776a2d",
+            "21244bb5bdbb0347",
+            "6619c0de43352c19"
+        ],
+        "x": 2314,
+        "y": 59,
+        "w": 792,
+        "h": 182
+    },
+    {
+        "id": "1a0c574d01faf84e",
+        "type": "group",
+        "z": "ea9d3508e6e817af",
+        "name": "Testmode",
+        "style": {
+            "stroke": "#9363b7",
+            "fill": "#dbcbe7",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "0a834dbde29da0a1",
+            "4a93101d6d5dad0d",
+            "5c6958b4c410fb3f",
+            "1c5219a036da5296",
+            "c335401ba1ab04d4",
+            "84ee88d04d52d097",
+            "8b02da354a6a1c9d",
+            "9d9b05f008ea0ab9",
+            "b4951f294b8c51e7",
+            "22f1f4243b73644a",
+            "e2e44a6b9298826a",
+            "7e22bcb2cd31acc2",
+            "f36593df9cd310e0",
+            "5dc83fe22a549d8b",
+            "c2a47c5e593bd431",
+            "cacb718364711b31",
+            "d246509a03537f39",
+            "1f287f4c232f6d19",
+            "97ae1429b82b24ed",
+            "35cca7c6973d5f7b",
+            "47fcac47b6004efd",
+            "b1708a797ca5fff9",
+            "110c9240ac0e06b8",
+            "06195981e0fab615",
+            "2b6582bf4744bc44",
+            "7eb0ee6211494f1b",
+            "617fc3bc7d2c7dba",
+            "73d7fd8de86b8989",
+            "215cefb042909dac",
+            "c7c225896cee373d",
+            "880ce7827ec321b7",
+            "2a80be0232e815a7",
+            "6254f59966e6de21",
+            "a27dd6d6bee8aa80",
+            "cb3c7863a38ce490",
+            "5d881ade4936bb9c",
+            "9d631a3494466ae9",
+            "3c79d3c21abb1168",
+            "faed9badbde82bf7",
+            "60b8c0d97c68ac36",
+            "8cf18b5ff77aed55",
+            "d91fbff6463ef32b",
+            "e898749dbe75c332",
+            "86b03165fe54d32a",
+            "e00bb71d034a2ff5",
+            "fb3164ba815ee5f6",
+            "9a27f9ce0c1ca7b3",
+            "28df0afc0de19f96",
+            "ccce6d1f82b63d22",
+            "fe88a9b325fb0348",
+            "d867185622ae57cf",
+            "534a90cb004a4cf6",
+            "17a06532c21d580f",
+            "bfd853dd844e88d7",
+            "c3faba246a70e403",
+            "920e3c378bb3737b"
+        ],
+        "x": 1694,
+        "y": 799,
+        "w": 1892,
+        "h": 922
+    },
+    {
+        "id": "34e2960c533872d3",
+        "type": "group",
+        "z": "ea9d3508e6e817af",
+        "name": "Button-Functions",
+        "style": {
+            "stroke": "#ffC000",
+            "fill": "#ffefbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "6beaf598551c2103",
+            "70542ad21a6e983e",
+            "6659864588701192",
+            "93024955c8a046d0",
+            "042e1d213486b7d9",
+            "c3735f3cf14bdd6a",
+            "318a595b49f90384",
+            "aae8ad983b870cd6",
+            "1ff97f1dac963f51",
+            "d683a5c2e74ca584",
+            "17abf2be9c677101",
+            "95cef75a819bea94",
+            "f17f89b006a45777",
+            "65f3fa2965e8b4a4",
+            "b6593aa7eab894ab",
+            "1695651a2dd7804c"
+        ],
+        "x": 2314,
+        "y": 259,
+        "w": 1322,
+        "h": 342
+    },
+    {
+        "id": "56262bcee81e34f8",
+        "type": "group",
+        "z": "ea9d3508e6e817af",
+        "name": "Fanspeed & Airflow Status",
+        "style": {
+            "stroke": "#92d04f",
+            "fill": "#e3f3d3",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "39fbd8639d923fef",
+            "24c1d6982f923368",
+            "580d8fc24699bb94",
+            "f0a4ee1f2f9f72b7",
+            "939073b0fd1b96c3",
+            "d0d2366f79e98316",
+            "1dac28a3f6229852",
+            "a0a955aad7ed6de4",
+            "8e5dde95ecb25989",
+            "2242cf4da1d0b17d"
+        ],
+        "x": 1294,
+        "y": 279,
+        "w": 912,
+        "h": 222
+    },
+    {
+        "id": "689d0bf583240dfc",
+        "type": "group",
+        "z": "ea9d3508e6e817af",
+        "name": "Status AutoMode",
+        "style": {
+            "stroke": "#addb7b",
+            "fill": "#e3f3d3",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "e823fc5dcd7395f0",
+            "b0441ef028bb78db",
+            "2fe71c98e64726d0",
+            "5a17c65d64241c5c",
+            "097a7351277eeb3a",
+            "e422d8b37450595e"
+        ],
+        "x": 1294,
+        "y": 539,
+        "w": 852,
+        "h": 162
+    },
+    {
+        "id": "beb5f1908effa5e4",
+        "type": "junction",
+        "z": "ea9d3508e6e817af",
+        "g": "a5b2a9f3e8b49461",
+        "x": 440,
+        "y": 1420,
+        "wires": [
+            [
+                "58882b26b5ce2c15"
+            ]
+        ]
+    },
+    {
+        "id": "0dcdd2f74ae66675",
+        "type": "junction",
+        "z": "ea9d3508e6e817af",
+        "g": "a5b2a9f3e8b49461",
+        "x": 440,
+        "y": 1180,
+        "wires": [
+            [
+                "6948a6e741f98ecd"
+            ]
+        ]
+    },
+    {
+        "id": "8f89fbc19a7b3eca",
+        "type": "junction",
+        "z": "ea9d3508e6e817af",
+        "g": "a5b2a9f3e8b49461",
+        "x": 760,
+        "y": 1220,
+        "wires": [
+            [
+                "adc5663dc87e3678"
+            ]
+        ]
+    },
+    {
+        "id": "cc35ec1e08a6cbf0",
+        "type": "junction",
+        "z": "ea9d3508e6e817af",
+        "g": "a5b2a9f3e8b49461",
+        "x": 1320,
+        "y": 1180,
+        "wires": [
+            [
+                "adc5663dc87e3678"
+            ]
+        ]
+    },
+    {
+        "id": "642f23b3a5047c45",
+        "type": "junction",
+        "z": "ea9d3508e6e817af",
+        "g": "a5b2a9f3e8b49461",
+        "x": 1300,
+        "y": 1420,
+        "wires": [
+            [
+                "bc75d08e1f55bdf4"
+            ]
+        ]
+    },
+    {
+        "id": "8a73239d3d6dfa83",
+        "type": "junction",
+        "z": "ea9d3508e6e817af",
+        "g": "6c3b875626b41136",
+        "x": 2020,
+        "y": 200,
+        "wires": [
+            [
+                "0713a575d08c1a9f"
+            ]
+        ]
+    },
+    {
+        "id": "4ab831014e27d4ce",
+        "type": "junction",
+        "z": "ea9d3508e6e817af",
+        "g": "6c3b875626b41136",
+        "x": 2020,
+        "y": 200,
+        "wires": [
+            [
+                "f1cc8c4ab9c26f21"
+            ]
+        ]
+    },
+    {
+        "id": "415c6a01a28dc8fd",
+        "type": "junction",
+        "z": "ea9d3508e6e817af",
+        "g": "6c3b875626b41136",
+        "x": 2040,
+        "y": 140,
+        "wires": [
+            [
+                "55a6790642a44aef"
+            ]
+        ]
+    },
+    {
+        "id": "4cae1d680f77227c",
+        "type": "junction",
+        "z": "ea9d3508e6e817af",
+        "g": "6c3b875626b41136",
+        "x": 2040,
+        "y": 140,
+        "wires": [
+            [
+                "dec0c98c93b21819"
+            ]
+        ]
+    },
+    {
+        "id": "4a10c2c15f5a2fcb",
+        "type": "junction",
+        "z": "ea9d3508e6e817af",
+        "g": "6c3b875626b41136",
+        "x": 2040,
+        "y": 80,
+        "wires": [
+            [
+                "0c806e5b7a173a56"
+            ]
+        ]
+    },
+    {
+        "id": "c99e44cecc0cd77c",
+        "type": "junction",
+        "z": "ea9d3508e6e817af",
+        "g": "badef575c50faa15",
+        "x": 380,
+        "y": 1740,
+        "wires": [
+            [
+                "f3b947a34cd1b473"
+            ]
+        ]
+    },
+    {
+        "id": "f3b947a34cd1b473",
+        "type": "junction",
+        "z": "ea9d3508e6e817af",
+        "g": "badef575c50faa15",
+        "x": 520,
+        "y": 1740,
+        "wires": [
+            [
+                "b19665e3752ca236"
+            ]
+        ]
+    },
+    {
+        "id": "f9a30e008c27af9c",
+        "type": "junction",
+        "z": "ea9d3508e6e817af",
+        "g": "badef575c50faa15",
+        "x": 620,
+        "y": 1660,
+        "wires": [
+            [
+                "3f8dfb664f68eb7a"
+            ]
+        ]
+    },
+    {
+        "id": "3f8dfb664f68eb7a",
+        "type": "junction",
+        "z": "ea9d3508e6e817af",
+        "g": "badef575c50faa15",
+        "x": 900,
+        "y": 1660,
+        "wires": [
+            [
+                "ebd64ce977ce7e75"
+            ]
+        ]
+    },
+    {
+        "id": "920e3c378bb3737b",
+        "type": "junction",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "x": 2260,
+        "y": 900,
+        "wires": [
+            [
+                "2b6582bf4744bc44"
+            ]
+        ]
+    },
+    {
+        "id": "8e5dde95ecb25989",
+        "type": "junction",
+        "z": "ea9d3508e6e817af",
+        "g": "56262bcee81e34f8",
+        "x": 1840,
+        "y": 340,
+        "wires": [
+            [
+                "d0d2366f79e98316"
+            ]
+        ]
+    },
+    {
+        "id": "2242cf4da1d0b17d",
+        "type": "junction",
+        "z": "ea9d3508e6e817af",
+        "g": "56262bcee81e34f8",
+        "x": 1840,
+        "y": 340,
+        "wires": [
+            [
+                "a0a955aad7ed6de4"
+            ]
+        ]
+    },
+    {
+        "id": "b67d8f52bf4ac9e8",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "a8fb6eb49d1d087e",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/Temperature",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/Temperature",
+            "name": "/Settings/RoadbuckMods/MaxxFan/Temperature",
+            "type": "number"
+        },
+        "name": "MaxxFan Temperature",
+        "onlyChanges": false,
+        "x": 1020,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "b5750e53622f2ee4",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "a8fb6eb49d1d087e",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/Humidity",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/Humidity",
+            "name": "/Settings/RoadbuckMods/MaxxFan/Humidity",
+            "type": "number"
+        },
+        "name": "MaxxFan Humidity",
+        "onlyChanges": false,
+        "x": 730,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "a0d7740fa9305239",
+        "type": "mqtt in",
+        "z": "ea9d3508e6e817af",
+        "g": "a8fb6eb49d1d087e",
+        "name": "",
+        "topic": "RB_MaxxFan_WiFi/humidity_ema",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "cf323645439c0e88",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 240,
+        "y": 300,
+        "wires": [
+            [
+                "b5750e53622f2ee4",
+                "f29b4927b4bbd2cf"
+            ]
+        ]
+    },
+    {
+        "id": "0688be463ba2532f",
+        "type": "mqtt in",
+        "z": "ea9d3508e6e817af",
+        "g": "a8fb6eb49d1d087e",
+        "name": "",
+        "topic": "RB_MaxxFan_WiFi/temperature_ema",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "cf323645439c0e88",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 230,
+        "y": 360,
+        "wires": [
+            [
+                "fcfd4183377ba5b3",
+                "4df6339dc46e3e67"
+            ]
+        ]
+    },
+    {
+        "id": "f29b4927b4bbd2cf",
+        "type": "debug",
+        "z": "ea9d3508e6e817af",
+        "g": "a8fb6eb49d1d087e",
+        "name": "debug 36",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 500,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "fcfd4183377ba5b3",
+        "type": "debug",
+        "z": "ea9d3508e6e817af",
+        "g": "a8fb6eb49d1d087e",
+        "name": "debug 37",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 780,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "f88f50525e0fcc6e",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "a8fb6eb49d1d087e",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/Pressure",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/Pressure",
+            "name": "/Settings/RoadbuckMods/MaxxFan/Pressure",
+            "type": "number"
+        },
+        "name": "MaxxFan Pressure",
+        "onlyChanges": false,
+        "x": 730,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "bb503db3e134bfdd",
+        "type": "mqtt in",
+        "z": "ea9d3508e6e817af",
+        "g": "a8fb6eb49d1d087e",
+        "name": "",
+        "topic": "RB_MaxxFan_WiFi/pressure",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "cf323645439c0e88",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 260,
+        "y": 420,
+        "wires": [
+            [
+                "f88f50525e0fcc6e",
+                "920471e16f44b94d"
+            ]
+        ]
+    },
+    {
+        "id": "920471e16f44b94d",
+        "type": "debug",
+        "z": "ea9d3508e6e817af",
+        "g": "a8fb6eb49d1d087e",
+        "name": "debug 38",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 500,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "2e55120cf250c8e1",
+        "type": "victron-input-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "6c3b875626b41136",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/IrSignal",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/IrSignal",
+            "name": "/Settings/RoadbuckMods/MaxxFan/IrSignal",
+            "type": "string"
+        },
+        "name": "IR-Signal",
+        "onlyChanges": true,
+        "x": 1380,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "593b25766ecb8330",
+        "type": "victron-input-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "6c3b875626b41136",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/StatusOpen",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/StatusOpen",
+            "name": "/Settings/RoadbuckMods/MaxxFan/StatusOpen",
+            "type": "number"
+        },
+        "name": "Open (Status)",
+        "onlyChanges": true,
+        "x": 1550,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6335160ac1ef6a74",
+        "type": "victron-input-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "cdbb9ce8e19ff4cc",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/StatusAirflow",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/StatusAirflow",
+            "name": "/Settings/RoadbuckMods/MaxxFan/StatusAirflow",
+            "type": "string"
+        },
+        "name": "Airflow (Status)",
+        "onlyChanges": true,
+        "x": 1040,
+        "y": 920,
+        "wires": [
+            [
+                "08f9ec94c16d8f9f"
+            ]
+        ]
+    },
+    {
+        "id": "b2c4c8845fa646e6",
+        "type": "victron-input-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "cdbb9ce8e19ff4cc",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+            "name": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+            "type": "number"
+        },
+        "name": "Fanspeed (Status)",
+        "onlyChanges": true,
+        "x": 1030,
+        "y": 980,
+        "wires": [
+            [
+                "04df5fccf179b6c1"
+            ]
+        ]
+    },
+    {
+        "id": "90387869f66982be",
+        "type": "victron-input-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "cdbb9ce8e19ff4cc",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/StatusAutoMode",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/StatusAutoMode",
+            "name": "/Settings/RoadbuckMods/MaxxFan/StatusAutoMode",
+            "type": "number"
+        },
+        "name": "AutoMode (Status)",
+        "onlyChanges": true,
+        "x": 1030,
+        "y": 1040,
+        "wires": [
+            [
+                "f8a22b9f27b04ec0"
+            ]
+        ]
+    },
+    {
+        "id": "2ff47de777990d7e",
+        "type": "mqtt in",
+        "z": "ea9d3508e6e817af",
+        "g": "a8fb6eb49d1d087e",
+        "name": "",
+        "topic": "RB_MaxxFan_WiFi/command",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "cf323645439c0e88",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 260,
+        "y": 480,
+        "wires": [
+            [
+                "3c144d102fc8d073",
+                "e2441d0742013f85"
+            ]
+        ]
+    },
+    {
+        "id": "3c144d102fc8d073",
+        "type": "debug",
+        "z": "ea9d3508e6e817af",
+        "g": "a8fb6eb49d1d087e",
+        "name": "debug 44",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 500,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "e2441d0742013f85",
+        "type": "switch",
+        "z": "ea9d3508e6e817af",
+        "g": "a8fb6eb49d1d087e",
+        "name": "open / close",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "close",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "open",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 530,
+        "y": 540,
+        "wires": [
+            [
+                "ce5a51171c95529c"
+            ],
+            [
+                "b8f9a87fe2a48478"
+            ]
+        ]
+    },
+    {
+        "id": "ce5a51171c95529c",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "a8fb6eb49d1d087e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 750,
+        "y": 520,
+        "wires": [
+            [
+                "2ba716f2dac3aa24",
+                "3f9f2c1c377663f6"
+            ]
+        ]
+    },
+    {
+        "id": "b8f9a87fe2a48478",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "a8fb6eb49d1d087e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 750,
+        "y": 560,
+        "wires": [
+            [
+                "2ba716f2dac3aa24"
+            ]
+        ]
+    },
+    {
+        "id": "2ba716f2dac3aa24",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "a8fb6eb49d1d087e",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/StatusOpen",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/StatusOpen",
+            "name": "/Settings/RoadbuckMods/MaxxFan/StatusOpen",
+            "type": "number"
+        },
+        "name": "MaxxFan StatusOpen",
+        "onlyChanges": false,
+        "x": 1020,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "3f9f2c1c377663f6",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "a8fb6eb49d1d087e",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+            "name": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+            "type": "number"
+        },
+        "name": "MaxxFan StatusFanspeed",
+        "onlyChanges": false,
+        "x": 1030,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "59dd3bcd7c3966d8",
+        "type": "inject",
+        "z": "ea9d3508e6e817af",
+        "g": "a5b2a9f3e8b49461",
+        "name": "10sek",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 1240,
+        "wires": [
+            [
+                "be45451d148a35d4"
+            ]
+        ]
+    },
+    {
+        "id": "be45451d148a35d4",
+        "type": "switch",
+        "z": "ea9d3508e6e817af",
+        "g": "a5b2a9f3e8b49461",
+        "name": "Auto = 1?",
+        "property": "AutoModeStatus",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 320,
+        "y": 1240,
+        "wires": [
+            [
+                "0874ff463eecffbf"
+            ],
+            [
+                "beb5f1908effa5e4",
+                "0dcdd2f74ae66675"
+            ]
+        ]
+    },
+    {
+        "id": "f8a22b9f27b04ec0",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "cdbb9ce8e19ff4cc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "AutoModeStatus",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1320,
+        "y": 1040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "09671d1832469125",
+        "type": "victron-input-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "cdbb9ce8e19ff4cc",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/Temperature",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/Temperature",
+            "name": "/Settings/RoadbuckMods/MaxxFan/Temperature",
+            "type": "number"
+        },
+        "name": "Temperatur (Sensor)",
+        "onlyChanges": true,
+        "x": 770,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4fd8d86d3e7464f6",
+        "type": "victron-input-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "cdbb9ce8e19ff4cc",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/TemperatureOffset",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/TemperatureOffset",
+            "name": "/Settings/RoadbuckMods/MaxxFan/TemperatureOffset",
+            "type": "number"
+        },
+        "name": "TemperaturOffset (Sensor)",
+        "onlyChanges": false,
+        "roundValues": "1",
+        "x": 190,
+        "y": 1020,
+        "wires": [
+            [
+                "7d4ac60718ffb9fb",
+                "bc066292dd8cfb66"
+            ]
+        ]
+    },
+    {
+        "id": "f2c6906f0274fc72",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "cdbb9ce8e19ff4cc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "TemperatureSensor",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 530,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7d4ac60718ffb9fb",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "cdbb9ce8e19ff4cc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "TemperatureOffset",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 1020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bc066292dd8cfb66",
+        "type": "function",
+        "z": "ea9d3508e6e817af",
+        "g": "cdbb9ce8e19ff4cc",
+        "name": "Temperature + Offset",
+        "func": "//var TempWithOffset\nvar Temperature = flow.get(\"TemperatureSensor\");\nvar TemperatureOffset = flow.get(\"TemperatureOffset\");\n\nmsg.payload = Temperature + TemperatureOffset\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 1080,
+        "wires": [
+            [
+                "d33cff82baa6e8fc",
+                "1c17e873b789dbc5"
+            ]
+        ]
+    },
+    {
+        "id": "d33cff82baa6e8fc",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "cdbb9ce8e19ff4cc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "TemperatureWithOffset",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 780,
+        "y": 1080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1fb0a63aa80ac739",
+        "type": "victron-input-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "cdbb9ce8e19ff4cc",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/StatusTemperature",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/StatusTemperature",
+            "name": "/Settings/RoadbuckMods/MaxxFan/StatusTemperature",
+            "type": "number"
+        },
+        "name": "StatusTemperature (soll)",
+        "onlyChanges": true,
+        "x": 190,
+        "y": 960,
+        "wires": [
+            [
+                "e260d6528a6ba376"
+            ]
+        ]
+    },
+    {
+        "id": "e260d6528a6ba376",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "cdbb9ce8e19ff4cc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "TargetTemperature",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8dc697f2c755a727",
+        "type": "debug",
+        "z": "ea9d3508e6e817af",
+        "g": "a5b2a9f3e8b49461",
+        "name": "Diff",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 630,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "0874ff463eecffbf",
+        "type": "function",
+        "z": "ea9d3508e6e817af",
+        "g": "a5b2a9f3e8b49461",
+        "name": "TempDiff",
+        "func": "//var TempWithOffset\nvar TargetTemperature = flow.get(\"TargetTemperature\");\nvar TemperatureWithOffset = flow.get(\"TemperatureWithOffset\");\n\nmsg.payload = (TemperatureWithOffset - TargetTemperature).toFixed(1);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 1240,
+        "wires": [
+            [
+                "8dc697f2c755a727",
+                "46b21cb8f0496281"
+            ]
+        ]
+    },
+    {
+        "id": "46b21cb8f0496281",
+        "type": "switch",
+        "z": "ea9d3508e6e817af",
+        "g": "a5b2a9f3e8b49461",
+        "name": "Diff < 0? ",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lt",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "gte",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 640,
+        "y": 1240,
+        "wires": [
+            [
+                "8f89fbc19a7b3eca"
+            ],
+            [
+                "6948a6e741f98ecd",
+                "684f94fc96ea5399"
+            ]
+        ]
+    },
+    {
+        "id": "cb1faec6d3c95d57",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "badef575c50faa15",
+        "name": "Fan Off",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "fan_off",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 1640,
+        "wires": [
+            [
+                "f50e57da1c9475d1",
+                "0dd8cf053c357f08",
+                "ebd64ce977ce7e75"
+            ]
+        ]
+    },
+    {
+        "id": "f50e57da1c9475d1",
+        "type": "debug",
+        "z": "ea9d3508e6e817af",
+        "g": "badef575c50faa15",
+        "name": "IR-Command",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 670,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "6948a6e741f98ecd",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "a5b2a9f3e8b49461",
+        "name": "RESET",
+        "rules": [
+            {
+                "t": "set",
+                "p": "reset",
+                "pt": "msg",
+                "to": "",
+                "tot": "date"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 820,
+        "y": 1180,
+        "wires": [
+            [
+                "cc35ec1e08a6cbf0"
+            ]
+        ]
+    },
+    {
+        "id": "7579e77903a8bcab",
+        "type": "trigger",
+        "z": "ea9d3508e6e817af",
+        "g": "badef575c50faa15",
+        "name": "",
+        "op1": "",
+        "op2": "0",
+        "op1type": "pay",
+        "op2type": "str",
+        "duration": "0",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 220,
+        "y": 1640,
+        "wires": [
+            [
+                "cb1faec6d3c95d57"
+            ]
+        ]
+    },
+    {
+        "id": "c7db15eeeb81837f",
+        "type": "trigger",
+        "z": "ea9d3508e6e817af",
+        "g": "badef575c50faa15",
+        "name": "",
+        "op1": "",
+        "op2": "0",
+        "op1type": "pay",
+        "op2type": "str",
+        "duration": "0",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 220,
+        "y": 1700,
+        "wires": [
+            [
+                "bb992d660de0fbef",
+                "9d54e65fdacd7876",
+                "38d4d3e8e138bc58",
+                "c99e44cecc0cd77c"
+            ]
+        ]
+    },
+    {
+        "id": "e0c50f72e6447f84",
+        "type": "debug",
+        "z": "ea9d3508e6e817af",
+        "g": "badef575c50faa15",
+        "name": "build IR-Command",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 670,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "58882b26b5ce2c15",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "a5b2a9f3e8b49461",
+        "name": "RESET",
+        "rules": [
+            {
+                "t": "set",
+                "p": "reset",
+                "pt": "msg",
+                "to": "",
+                "tot": "date"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1180,
+        "y": 1420,
+        "wires": [
+            [
+                "642f23b3a5047c45"
+            ]
+        ]
+    },
+    {
+        "id": "4f0fc5cc14efab8e",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "badef575c50faa15",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/StatusOpen",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/StatusOpen",
+            "name": "/Settings/RoadbuckMods/MaxxFan/StatusOpen",
+            "type": "number"
+        },
+        "name": "MaxxFan StatusOpen",
+        "onlyChanges": false,
+        "x": 940,
+        "y": 1760,
+        "wires": []
+    },
+    {
+        "id": "9d54e65fdacd7876",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "badef575c50faa15",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+            "name": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+            "type": "number"
+        },
+        "name": "StatusFanspeed",
+        "onlyChanges": false,
+        "x": 460,
+        "y": 1780,
+        "wires": []
+    },
+    {
+        "id": "09812030e6136cae",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "badef575c50faa15",
+        "name": "Then: 1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 760,
+        "y": 1760,
+        "wires": [
+            [
+                "4f0fc5cc14efab8e"
+            ]
+        ]
+    },
+    {
+        "id": "0dd8cf053c357f08",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "badef575c50faa15",
+        "name": "Set: 0",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 650,
+        "y": 1580,
+        "wires": [
+            [
+                "50e789a693d18e7d",
+                "7bebae8f3880cea8"
+            ]
+        ]
+    },
+    {
+        "id": "50e789a693d18e7d",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "badef575c50faa15",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+            "name": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+            "type": "number"
+        },
+        "name": "StatusFanspeed",
+        "onlyChanges": false,
+        "x": 800,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "7bebae8f3880cea8",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "badef575c50faa15",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/SetFanspeed",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/SetFanspeed",
+            "name": "/Settings/RoadbuckMods/MaxxFan/SetFanspeed",
+            "type": "number"
+        },
+        "name": "SetFanspeed",
+        "onlyChanges": false,
+        "x": 970,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "38d4d3e8e138bc58",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "badef575c50faa15",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/SetFanspeed",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/SetFanspeed",
+            "name": "/Settings/RoadbuckMods/MaxxFan/SetFanspeed",
+            "type": "number"
+        },
+        "name": "SetFanspeed",
+        "onlyChanges": false,
+        "x": 450,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "08f9ec94c16d8f9f",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "cdbb9ce8e19ff4cc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "AirFlowStatus",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1290,
+        "y": 920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bb992d660de0fbef",
+        "type": "function",
+        "z": "ea9d3508e6e817af",
+        "g": "badef575c50faa15",
+        "name": "build cmd",
+        "func": "\nvar AirFlow = flow.get(\"AirFlowStatus\");\n\nmsg.payload = AirFlow + \"_\" + msg.payload;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 1700,
+        "wires": [
+            [
+                "e0c50f72e6447f84",
+                "f9a30e008c27af9c"
+            ]
+        ]
+    },
+    {
+        "id": "684f94fc96ea5399",
+        "type": "function",
+        "z": "ea9d3508e6e817af",
+        "g": "a5b2a9f3e8b49461",
+        "name": "Dynamic",
+        "func": "// TemperaturVariablen abrufen\nvar temp_diff = msg.payload\nvar FanSpeed  = flow.get(\"FanSpeedStatus\");\n\n\n\n// Temperaturdifferenz prüfen\nif (temp_diff >= 10){\n    msg.payload = 10;\n} else if (temp_diff >= 8){\n    msg.payload = 8;\n} else if (temp_diff >= 6){\n    msg.payload = 6;\n} else if (temp_diff >= 4){\n    msg.payload = 4;\n} else if (temp_diff >= 1){\n    msg.payload = 3;\n}\n\n//aktuellen Fanspeed prüfen\n//if (FanSpeed != msg.paylaod){\n//    msg.reset = now();\n//}\n//msg.payload}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 1280,
+        "wires": [
+            [
+                "55e80d747118bb91",
+                "2976a9732e3f8b2d",
+                "bc75d08e1f55bdf4"
+            ]
+        ]
+    },
+    {
+        "id": "55e80d747118bb91",
+        "type": "debug",
+        "z": "ea9d3508e6e817af",
+        "g": "a5b2a9f3e8b49461",
+        "name": "Dyn. Speed",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 950,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "04df5fccf179b6c1",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "cdbb9ce8e19ff4cc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "FanSpeedStatus",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1300,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2976a9732e3f8b2d",
+        "type": "switch",
+        "z": "ea9d3508e6e817af",
+        "g": "a5b2a9f3e8b49461",
+        "name": "new speed",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "FanSpeedStatus",
+                "vt": "flow"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 990,
+        "y": 1360,
+        "wires": [
+            [
+                "58882b26b5ce2c15",
+                "6ad93e9395bdcea6"
+            ]
+        ]
+    },
+    {
+        "id": "6ad93e9395bdcea6",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "a5b2a9f3e8b49461",
+        "name": "set FanSpeedStatus",
+        "rules": [
+            {
+                "t": "set",
+                "p": "FanSpeedStatus",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1220,
+        "y": 1360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0b2ffca6de95df39",
+        "type": "comment",
+        "z": "ea9d3508e6e817af",
+        "g": "a5b2a9f3e8b49461",
+        "name": "AutoMode == 0 ? RESET Trigger",
+        "info": "",
+        "x": 610,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "6f1fbd91e01509d0",
+        "type": "serial out",
+        "z": "ea9d3508e6e817af",
+        "g": "c87b0f4d7febf152",
+        "name": "",
+        "serial": "5ea3b7e1715ae95a",
+        "x": 910,
+        "y": 1940,
+        "wires": []
+    },
+    {
+        "id": "74b82f50656a3954",
+        "type": "function",
+        "z": "ea9d3508e6e817af",
+        "g": "c87b0f4d7febf152",
+        "name": "Baudrate 115200",
+        "func": "msg.baudrate = \"115200\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 1940,
+        "wires": [
+            [
+                "6f1fbd91e01509d0"
+            ]
+        ]
+    },
+    {
+        "id": "9f1ef33631fcbc1c",
+        "type": "victron-input-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "6c3b875626b41136",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/IrSignal",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/IrSignal",
+            "name": "/Settings/RoadbuckMods/MaxxFan/IrSignal",
+            "type": "string"
+        },
+        "name": "IR-Signal",
+        "onlyChanges": true,
+        "x": 1380,
+        "y": 180,
+        "wires": [
+            [
+                "97d49ef120701dec",
+                "184a92e76778aaf1"
+            ]
+        ]
+    },
+    {
+        "id": "97d49ef120701dec",
+        "type": "rbe",
+        "z": "ea9d3508e6e817af",
+        "g": "6c3b875626b41136",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1530,
+        "y": 180,
+        "wires": [
+            [
+                "990c68b542c295f4"
+            ]
+        ]
+    },
+    {
+        "id": "184a92e76778aaf1",
+        "type": "debug",
+        "z": "ea9d3508e6e817af",
+        "g": "6c3b875626b41136",
+        "name": "Ausgabe",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1680,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "990c68b542c295f4",
+        "type": "switch",
+        "z": "ea9d3508e6e817af",
+        "g": "6c3b875626b41136",
+        "name": "Verbindungsart",
+        "property": "ConnectionType",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 1880,
+        "y": 180,
+        "wires": [
+            [
+                "4a10c2c15f5a2fcb"
+            ],
+            [
+                "415c6a01a28dc8fd",
+                "4cae1d680f77227c"
+            ],
+            [
+                "8a73239d3d6dfa83",
+                "4ab831014e27d4ce"
+            ]
+        ]
+    },
+    {
+        "id": "5baeaab41a53c9dc",
+        "type": "victron-input-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "cdbb9ce8e19ff4cc",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/ConnectionType",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/ConnectionType",
+            "name": "/Settings/RoadbuckMods/MaxxFan/ConnectionType",
+            "type": "number"
+        },
+        "name": "ConnectionType",
+        "onlyChanges": true,
+        "x": 1040,
+        "y": 860,
+        "wires": [
+            [
+                "95b78862e916ad98"
+            ]
+        ]
+    },
+    {
+        "id": "95b78862e916ad98",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "cdbb9ce8e19ff4cc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ConnectionType",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1280,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "55a6790642a44aef",
+        "type": "link out",
+        "z": "ea9d3508e6e817af",
+        "g": "6c3b875626b41136",
+        "name": "WiFi",
+        "mode": "link",
+        "links": [
+            "46e5f18bfddd5e98"
+        ],
+        "x": 2245,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "0713a575d08c1a9f",
+        "type": "link out",
+        "z": "ea9d3508e6e817af",
+        "g": "6c3b875626b41136",
+        "name": "USB",
+        "mode": "link",
+        "links": [
+            "33fb3459e7d80756"
+        ],
+        "x": 2245,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "0c806e5b7a173a56",
+        "type": "debug",
+        "z": "ea9d3508e6e817af",
+        "g": "6c3b875626b41136",
+        "name": "deaktiviert",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 2130,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "f1cc8c4ab9c26f21",
+        "type": "debug",
+        "z": "ea9d3508e6e817af",
+        "g": "6c3b875626b41136",
+        "name": "WiFi",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 2110,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "dec0c98c93b21819",
+        "type": "debug",
+        "z": "ea9d3508e6e817af",
+        "g": "6c3b875626b41136",
+        "name": "USB",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 2110,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "46e5f18bfddd5e98",
+        "type": "link in",
+        "z": "ea9d3508e6e817af",
+        "g": "c87b0f4d7febf152",
+        "name": "USB-Controller",
+        "links": [
+            "ebd64ce977ce7e75",
+            "55a6790642a44aef"
+        ],
+        "x": 105,
+        "y": 1940,
+        "wires": [
+            [
+                "74b82f50656a3954",
+                "7d23c98848608fa5"
+            ]
+        ]
+    },
+    {
+        "id": "7d23c98848608fa5",
+        "type": "debug",
+        "z": "ea9d3508e6e817af",
+        "g": "c87b0f4d7febf152",
+        "name": "IR-Signal",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 220,
+        "y": 1940,
+        "wires": []
+    },
+    {
+        "id": "33fb3459e7d80756",
+        "type": "link in",
+        "z": "ea9d3508e6e817af",
+        "g": "d5368311f8e95514",
+        "name": "WiFi Controller",
+        "links": [
+            "ebd64ce977ce7e75",
+            "0713a575d08c1a9f"
+        ],
+        "x": 105,
+        "y": 2040,
+        "wires": [
+            [
+                "26570a92b56cadda",
+                "f16658214aba0fa0"
+            ]
+        ]
+    },
+    {
+        "id": "26570a92b56cadda",
+        "type": "debug",
+        "z": "ea9d3508e6e817af",
+        "g": "d5368311f8e95514",
+        "name": "IR-Signal",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 220,
+        "y": 2040,
+        "wires": []
+    },
+    {
+        "id": "f16658214aba0fa0",
+        "type": "mqtt out",
+        "z": "ea9d3508e6e817af",
+        "g": "d5368311f8e95514",
+        "name": "",
+        "topic": "RB_MaxxFan_WiFi/command",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "cf323645439c0e88",
+        "x": 850,
+        "y": 2040,
+        "wires": []
+    },
+    {
+        "id": "ebd64ce977ce7e75",
+        "type": "link out",
+        "z": "ea9d3508e6e817af",
+        "g": "badef575c50faa15",
+        "name": "AutoMode IR-Signal",
+        "mode": "link",
+        "links": [
+            "33fb3459e7d80756",
+            "46e5f18bfddd5e98"
+        ],
+        "x": 1055,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "b19665e3752ca236",
+        "type": "switch",
+        "z": "ea9d3508e6e817af",
+        "g": "badef575c50faa15",
+        "name": " > 0 ?",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 630,
+        "y": 1760,
+        "wires": [
+            [
+                "09812030e6136cae"
+            ]
+        ]
+    },
+    {
+        "id": "7df3143ddf8ebf5d",
+        "type": "comment",
+        "z": "ea9d3508e6e817af",
+        "g": "a5b2a9f3e8b49461",
+        "name": "AutoMode == 1 ? RESET Trigger",
+        "info": "",
+        "x": 590,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "70638269d67ad69e",
+        "type": "comment",
+        "z": "ea9d3508e6e817af",
+        "g": "badef575c50faa15",
+        "name": "Send IR-Sginal",
+        "info": "",
+        "x": 1180,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "7392086441d4a947",
+        "type": "comment",
+        "z": "ea9d3508e6e817af",
+        "g": "a5b2a9f3e8b49461",
+        "name": "Dynamic Fanspeed",
+        "info": "",
+        "x": 1210,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "06f3885e547667e9",
+        "type": "comment",
+        "z": "ea9d3508e6e817af",
+        "g": "a5b2a9f3e8b49461",
+        "name": "Target temperature reached...",
+        "info": "",
+        "x": 1180,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "ec7189b287368726",
+        "type": "link in",
+        "z": "ea9d3508e6e817af",
+        "g": "badef575c50faa15",
+        "name": "Process target temperature reached",
+        "links": [
+            "adc5663dc87e3678"
+        ],
+        "x": 95,
+        "y": 1640,
+        "wires": [
+            [
+                "7579e77903a8bcab"
+            ]
+        ]
+    },
+    {
+        "id": "adc5663dc87e3678",
+        "type": "link out",
+        "z": "ea9d3508e6e817af",
+        "g": "a5b2a9f3e8b49461",
+        "name": "Target temperature reached",
+        "mode": "link",
+        "links": [
+            "ec7189b287368726"
+        ],
+        "x": 1375,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "bc75d08e1f55bdf4",
+        "type": "link out",
+        "z": "ea9d3508e6e817af",
+        "g": "a5b2a9f3e8b49461",
+        "name": "Target temperature not reached",
+        "mode": "link",
+        "links": [
+            "c72bcc5cc5122b37"
+        ],
+        "x": 1375,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "c72bcc5cc5122b37",
+        "type": "link in",
+        "z": "ea9d3508e6e817af",
+        "g": "badef575c50faa15",
+        "name": "Process target temperature not reached",
+        "links": [
+            "bc75d08e1f55bdf4"
+        ],
+        "x": 95,
+        "y": 1700,
+        "wires": [
+            [
+                "c7db15eeeb81837f"
+            ]
+        ]
+    },
+    {
+        "id": "1c17e873b789dbc5",
+        "type": "debug",
+        "z": "ea9d3508e6e817af",
+        "g": "cdbb9ce8e19ff4cc",
+        "name": "Temp with offset",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 780,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "f63d67e247bc235e",
+        "type": "comment",
+        "z": "ea9d3508e6e817af",
+        "g": "a5b2a9f3e8b49461",
+        "name": "to Automode Controller",
+        "info": "",
+        "x": 1500,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "1e5a36177c8583b9",
+        "type": "comment",
+        "z": "ea9d3508e6e817af",
+        "g": "a5b2a9f3e8b49461",
+        "name": "to Automode Controller",
+        "info": "",
+        "x": 1500,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "2ed91832a5730710",
+        "type": "victron-input-temperature",
+        "z": "ea9d3508e6e817af",
+        "g": "463fb91c39d09fcd",
+        "service": "com.victronenergy.temperature/20",
+        "path": "/Temperature",
+        "serviceObj": {
+            "service": "com.victronenergy.temperature/20",
+            "name": "RuuviTag"
+        },
+        "pathObj": {
+            "path": "/Temperature",
+            "type": "float",
+            "name": "Temperature (°C)"
+        },
+        "name": "",
+        "onlyChanges": false,
+        "roundValues": "1",
+        "x": 200,
+        "y": 140,
+        "wires": [
+            [
+                "e273a0f6ee92198b",
+                "cea36072097d12f6"
+            ]
+        ]
+    },
+    {
+        "id": "64cdd81e2b546de7",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "463fb91c39d09fcd",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/Temperature",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/Temperature",
+            "name": "/Settings/RoadbuckMods/MaxxFan/Temperature",
+            "type": "number"
+        },
+        "name": "MaxxFan Temperature",
+        "onlyChanges": false,
+        "x": 1100,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "62a4e681673449a5",
+        "type": "victron-input-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "cdbb9ce8e19ff4cc",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/UseInternalTempSensor",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/UseInternalTempSensor",
+            "name": "/Settings/RoadbuckMods/MaxxFan/UseInternalTempSensor",
+            "type": "number"
+        },
+        "name": "Internal Temp Sensor",
+        "onlyChanges": false,
+        "x": 180,
+        "y": 840,
+        "wires": [
+            [
+                "8918f937b4d4e33a",
+                "83d5e1f555013d86"
+            ]
+        ]
+    },
+    {
+        "id": "e273a0f6ee92198b",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "463fb91c39d09fcd",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "TemperatureOther",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 140,
+        "wires": [
+            [
+                "525b3f6df20663ce"
+            ]
+        ]
+    },
+    {
+        "id": "59a2a14d1a7a7a80",
+        "type": "victron-input-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "463fb91c39d09fcd",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/Temperature",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/Temperature",
+            "name": "/Settings/RoadbuckMods/MaxxFan/Temperature",
+            "type": "number"
+        },
+        "name": "Temperatur (Sensor)",
+        "onlyChanges": false,
+        "x": 1090,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8918f937b4d4e33a",
+        "type": "debug",
+        "z": "ea9d3508e6e817af",
+        "g": "cdbb9ce8e19ff4cc",
+        "name": "Internal Sensor?",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 720,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "83d5e1f555013d86",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "cdbb9ce8e19ff4cc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "UseInternalSensor",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "525b3f6df20663ce",
+        "type": "switch",
+        "z": "ea9d3508e6e817af",
+        "g": "463fb91c39d09fcd",
+        "name": "",
+        "property": "UseInternalSensor",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 650,
+        "y": 140,
+        "wires": [
+            [
+                "617354ae3de37ed4"
+            ],
+            [
+                "b36cb206a97cc49e"
+            ]
+        ]
+    },
+    {
+        "id": "617354ae3de37ed4",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "463fb91c39d09fcd",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "TemperatureSensor",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 120,
+        "wires": [
+            [
+                "64cdd81e2b546de7",
+                "2cdf13881b32496a"
+            ]
+        ]
+    },
+    {
+        "id": "b36cb206a97cc49e",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "463fb91c39d09fcd",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "TemperatureOther",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 160,
+        "wires": [
+            [
+                "64cdd81e2b546de7",
+                "2cdf13881b32496a"
+            ]
+        ]
+    },
+    {
+        "id": "6ccd170e929ccdc2",
+        "type": "mqtt in",
+        "z": "ea9d3508e6e817af",
+        "g": "cdbb9ce8e19ff4cc",
+        "name": "",
+        "topic": "RB_MaxxFan_WiFi/temperature_ema",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "cf323645439c0e88",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 230,
+        "y": 900,
+        "wires": [
+            [
+                "f2c6906f0274fc72"
+            ]
+        ]
+    },
+    {
+        "id": "a513228f67e9c18b",
+        "type": "comment",
+        "z": "ea9d3508e6e817af",
+        "g": "463fb91c39d09fcd",
+        "name": "If you want to use another Temperature Sensor than the internal of the RB-Module, select here!!",
+        "info": "",
+        "x": 410,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "56f141a1c37a2847",
+        "type": "victron-input-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "463fb91c39d09fcd",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/UseInternalTempSensor",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/UseInternalTempSensor",
+            "name": "/Settings/RoadbuckMods/MaxxFan/UseInternalTempSensor",
+            "type": "number"
+        },
+        "name": "Use internal Sensor?",
+        "onlyChanges": true,
+        "x": 880,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2cdf13881b32496a",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "463fb91c39d09fcd",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "TemperatureSensor",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1110,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "39fbd8639d923fef",
+        "type": "victron-input-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "56262bcee81e34f8",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/SetFanspeed",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/SetFanspeed",
+            "name": "/Settings/RoadbuckMods/MaxxFan/SetFanspeed",
+            "type": "number"
+        },
+        "name": "Set Fanspeed",
+        "onlyChanges": true,
+        "x": 1390,
+        "y": 400,
+        "wires": [
+            [
+                "24c1d6982f923368"
+            ]
+        ]
+    },
+    {
+        "id": "24c1d6982f923368",
+        "type": "mqtt out",
+        "z": "ea9d3508e6e817af",
+        "g": "56262bcee81e34f8",
+        "name": "",
+        "topic": "RB_MaxxFan_WiFi/status_fanspeed",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "cf323645439c0e88",
+        "x": 1670,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "580d8fc24699bb94",
+        "type": "victron-input-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "56262bcee81e34f8",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/StatusAirflow",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/StatusAirflow",
+            "name": "/Settings/RoadbuckMods/MaxxFan/StatusAirflow",
+            "type": "string"
+        },
+        "name": "Status Airflow",
+        "onlyChanges": true,
+        "x": 1390,
+        "y": 460,
+        "wires": [
+            [
+                "f0a4ee1f2f9f72b7"
+            ]
+        ]
+    },
+    {
+        "id": "f0a4ee1f2f9f72b7",
+        "type": "mqtt out",
+        "z": "ea9d3508e6e817af",
+        "g": "56262bcee81e34f8",
+        "name": "",
+        "topic": "RB_MaxxFan_WiFi/status_airflow",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "cf323645439c0e88",
+        "x": 1660,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "e823fc5dcd7395f0",
+        "type": "victron-input-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "689d0bf583240dfc",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/StatusAutoMode",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/StatusAutoMode",
+            "name": "/Settings/RoadbuckMods/MaxxFan/StatusAutoMode",
+            "type": "number"
+        },
+        "name": "Status AutoMode",
+        "onlyChanges": true,
+        "x": 1400,
+        "y": 580,
+        "wires": [
+            [
+                "b0441ef028bb78db",
+                "5a17c65d64241c5c"
+            ]
+        ]
+    },
+    {
+        "id": "b0441ef028bb78db",
+        "type": "mqtt out",
+        "z": "ea9d3508e6e817af",
+        "g": "689d0bf583240dfc",
+        "name": "",
+        "topic": "RB_MaxxFan_WiFi/status_automode",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "cf323645439c0e88",
+        "x": 1670,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "2fe71c98e64726d0",
+        "type": "mqtt out",
+        "z": "ea9d3508e6e817af",
+        "g": "689d0bf583240dfc",
+        "name": "",
+        "topic": "RB_MaxxFan_WiFi/command",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "cf323645439c0e88",
+        "x": 1990,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "5a17c65d64241c5c",
+        "type": "switch",
+        "z": "ea9d3508e6e817af",
+        "g": "689d0bf583240dfc",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1570,
+        "y": 640,
+        "wires": [
+            [
+                "097a7351277eeb3a"
+            ],
+            [
+                "e422d8b37450595e"
+            ]
+        ]
+    },
+    {
+        "id": "097a7351277eeb3a",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "689d0bf583240dfc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "auto_mode_off",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1730,
+        "y": 620,
+        "wires": [
+            [
+                "2fe71c98e64726d0"
+            ]
+        ]
+    },
+    {
+        "id": "e422d8b37450595e",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "689d0bf583240dfc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "auto_mode_on",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1730,
+        "y": 660,
+        "wires": [
+            [
+                "2fe71c98e64726d0"
+            ]
+        ]
+    },
+    {
+        "id": "0a834dbde29da0a1",
+        "type": "victron-input-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/StatusTestmode",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/StatusTestmode",
+            "name": "/Settings/RoadbuckMods/MaxxFan/StatusTestmode",
+            "type": "number"
+        },
+        "name": "Status TestMode",
+        "onlyChanges": true,
+        "x": 1800,
+        "y": 980,
+        "wires": [
+            [
+                "4a93101d6d5dad0d"
+            ]
+        ]
+    },
+    {
+        "id": "4a93101d6d5dad0d",
+        "type": "switch",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "1?",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 2010,
+        "y": 960,
+        "wires": [
+            [
+                "5c6958b4c410fb3f",
+                "1c5219a036da5296",
+                "c335401ba1ab04d4",
+                "84ee88d04d52d097",
+                "8b02da354a6a1c9d",
+                "9d9b05f008ea0ab9",
+                "b4951f294b8c51e7",
+                "22f1f4243b73644a",
+                "e2e44a6b9298826a",
+                "7e22bcb2cd31acc2",
+                "920e3c378bb3737b",
+                "f36593df9cd310e0",
+                "5dc83fe22a549d8b"
+            ]
+        ]
+    },
+    {
+        "id": "5c6958b4c410fb3f",
+        "type": "delay",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 2320,
+        "y": 960,
+        "wires": [
+            [
+                "c2a47c5e593bd431"
+            ]
+        ]
+    },
+    {
+        "id": "1c5219a036da5296",
+        "type": "delay",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "15",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 2330,
+        "y": 1080,
+        "wires": [
+            [
+                "cacb718364711b31"
+            ]
+        ]
+    },
+    {
+        "id": "c335401ba1ab04d4",
+        "type": "delay",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "25",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 2330,
+        "y": 1140,
+        "wires": [
+            [
+                "d246509a03537f39"
+            ]
+        ]
+    },
+    {
+        "id": "84ee88d04d52d097",
+        "type": "delay",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "35",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 2330,
+        "y": 1200,
+        "wires": [
+            [
+                "1f287f4c232f6d19"
+            ]
+        ]
+    },
+    {
+        "id": "8b02da354a6a1c9d",
+        "type": "delay",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "45",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 2330,
+        "y": 1260,
+        "wires": [
+            [
+                "97ae1429b82b24ed"
+            ]
+        ]
+    },
+    {
+        "id": "9d9b05f008ea0ab9",
+        "type": "delay",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "55",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 2330,
+        "y": 1320,
+        "wires": [
+            [
+                "35cca7c6973d5f7b"
+            ]
+        ]
+    },
+    {
+        "id": "b4951f294b8c51e7",
+        "type": "delay",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "65",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 2330,
+        "y": 1380,
+        "wires": [
+            [
+                "47fcac47b6004efd"
+            ]
+        ]
+    },
+    {
+        "id": "22f1f4243b73644a",
+        "type": "delay",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "75",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 2330,
+        "y": 1440,
+        "wires": [
+            [
+                "b1708a797ca5fff9"
+            ]
+        ]
+    },
+    {
+        "id": "e2e44a6b9298826a",
+        "type": "delay",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "85",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 2330,
+        "y": 1500,
+        "wires": [
+            [
+                "110c9240ac0e06b8"
+            ]
+        ]
+    },
+    {
+        "id": "7e22bcb2cd31acc2",
+        "type": "delay",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "95",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 2330,
+        "y": 1560,
+        "wires": [
+            [
+                "06195981e0fab615"
+            ]
+        ]
+    },
+    {
+        "id": "f36593df9cd310e0",
+        "type": "delay",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "105",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 2330,
+        "y": 1620,
+        "wires": [
+            [
+                "7eb0ee6211494f1b"
+            ]
+        ]
+    },
+    {
+        "id": "5dc83fe22a549d8b",
+        "type": "delay",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "10",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 2330,
+        "y": 1020,
+        "wires": [
+            [
+                "617fc3bc7d2c7dba"
+            ]
+        ]
+    },
+    {
+        "id": "c2a47c5e593bd431",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "AutoMode off",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2560,
+        "y": 960,
+        "wires": [
+            [
+                "73d7fd8de86b8989"
+            ]
+        ]
+    },
+    {
+        "id": "cacb718364711b31",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "open",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "open",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2530,
+        "y": 1080,
+        "wires": [
+            [
+                "215cefb042909dac"
+            ]
+        ]
+    },
+    {
+        "id": "d246509a03537f39",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "OUT 10%",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "out_1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2540,
+        "y": 1140,
+        "wires": [
+            [
+                "215cefb042909dac",
+                "a27dd6d6bee8aa80",
+                "c3faba246a70e403"
+            ]
+        ]
+    },
+    {
+        "id": "1f287f4c232f6d19",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "OUT 30%",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "out_3",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2540,
+        "y": 1200,
+        "wires": [
+            [
+                "215cefb042909dac",
+                "9d631a3494466ae9"
+            ]
+        ]
+    },
+    {
+        "id": "97ae1429b82b24ed",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "OUT 50%",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "out_5",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2540,
+        "y": 1260,
+        "wires": [
+            [
+                "215cefb042909dac",
+                "60b8c0d97c68ac36"
+            ]
+        ]
+    },
+    {
+        "id": "35cca7c6973d5f7b",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "OUT 100%",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "out_10",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2550,
+        "y": 1320,
+        "wires": [
+            [
+                "215cefb042909dac",
+                "e898749dbe75c332"
+            ]
+        ]
+    },
+    {
+        "id": "47fcac47b6004efd",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "OUT 50%",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "out_5",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2540,
+        "y": 1380,
+        "wires": [
+            [
+                "215cefb042909dac",
+                "fb3164ba815ee5f6"
+            ]
+        ]
+    },
+    {
+        "id": "b1708a797ca5fff9",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "IN 50%",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "in_5",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2540,
+        "y": 1440,
+        "wires": [
+            [
+                "215cefb042909dac",
+                "fe88a9b325fb0348"
+            ]
+        ]
+    },
+    {
+        "id": "110c9240ac0e06b8",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "IN 0% (FAN OFF)",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "in_0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2570,
+        "y": 1500,
+        "wires": [
+            [
+                "215cefb042909dac",
+                "d867185622ae57cf"
+            ]
+        ]
+    },
+    {
+        "id": "06195981e0fab615",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "close",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "close",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2530,
+        "y": 1560,
+        "wires": [
+            [
+                "215cefb042909dac"
+            ]
+        ]
+    },
+    {
+        "id": "2b6582bf4744bc44",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "status_testrun",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2560,
+        "y": 900,
+        "wires": [
+            [
+                "c7c225896cee373d",
+                "880ce7827ec321b7"
+            ]
+        ]
+    },
+    {
+        "id": "7eb0ee6211494f1b",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "status_testrun",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2560,
+        "y": 1620,
+        "wires": [
+            [
+                "2a80be0232e815a7",
+                "6254f59966e6de21"
+            ]
+        ]
+    },
+    {
+        "id": "617fc3bc7d2c7dba",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "close",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "close",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2530,
+        "y": 1020,
+        "wires": [
+            [
+                "215cefb042909dac"
+            ]
+        ]
+    },
+    {
+        "id": "73d7fd8de86b8989",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/StatusAutoMode",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/StatusAutoMode",
+            "name": "/Settings/RoadbuckMods/MaxxFan/StatusAutoMode",
+            "type": "number"
+        },
+        "name": "MaxxFan Status Automode",
+        "onlyChanges": false,
+        "x": 2820,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "215cefb042909dac",
+        "type": "mqtt out",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "",
+        "topic": "RB_MaxxFan_WiFi/command",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "cf323645439c0e88",
+        "x": 2850,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "c7c225896cee373d",
+        "type": "mqtt out",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "",
+        "topic": "RB_MaxxFan_WiFi/status_testrun",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "cf323645439c0e88",
+        "x": 2840,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "880ce7827ec321b7",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/StatusTestmode",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/StatusTestmode",
+            "name": "/Settings/RoadbuckMods/MaxxFan/StatusTestmode",
+            "type": "number"
+        },
+        "name": "MaxxFan Status Testmode",
+        "onlyChanges": false,
+        "x": 2820,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "2a80be0232e815a7",
+        "type": "mqtt out",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "",
+        "topic": "RB_MaxxFan_WiFi/status_testrun",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "cf323645439c0e88",
+        "x": 2840,
+        "y": 1620,
+        "wires": []
+    },
+    {
+        "id": "6254f59966e6de21",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/StatusTestmode",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/StatusTestmode",
+            "name": "/Settings/RoadbuckMods/MaxxFan/StatusTestmode",
+            "type": "number"
+        },
+        "name": "MaxxFan Status Testmode",
+        "onlyChanges": false,
+        "x": 2820,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "939073b0fd1b96c3",
+        "type": "mqtt in",
+        "z": "ea9d3508e6e817af",
+        "g": "56262bcee81e34f8",
+        "name": "",
+        "topic": "RB_MaxxFan_WiFi/status_fanspeed",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "cf323645439c0e88",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1460,
+        "y": 340,
+        "wires": [
+            [
+                "1dac28a3f6229852",
+                "8e5dde95ecb25989",
+                "2242cf4da1d0b17d"
+            ]
+        ]
+    },
+    {
+        "id": "d0d2366f79e98316",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "56262bcee81e34f8",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+            "name": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+            "type": "number"
+        },
+        "name": "MaxxFan Status Fanspeed",
+        "onlyChanges": false,
+        "x": 2060,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "1dac28a3f6229852",
+        "type": "debug",
+        "z": "ea9d3508e6e817af",
+        "g": "56262bcee81e34f8",
+        "name": "debug 45",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1720,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "a0a955aad7ed6de4",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "56262bcee81e34f8",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/SetFanspeed",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/SetFanspeed",
+            "name": "/Settings/RoadbuckMods/MaxxFan/SetFanspeed",
+            "type": "number"
+        },
+        "name": "MaxxFan Set Fanspeed",
+        "onlyChanges": false,
+        "x": 2050,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "a27dd6d6bee8aa80",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "Set: 1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 3110,
+        "y": 1140,
+        "wires": [
+            [
+                "cb3c7863a38ce490",
+                "5d881ade4936bb9c"
+            ]
+        ]
+    },
+    {
+        "id": "cb3c7863a38ce490",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+            "name": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+            "type": "number"
+        },
+        "name": "StatusFanspeed",
+        "onlyChanges": false,
+        "x": 3320,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "5d881ade4936bb9c",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/SetFanspeed",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/SetFanspeed",
+            "name": "/Settings/RoadbuckMods/MaxxFan/SetFanspeed",
+            "type": "number"
+        },
+        "name": "SetFanspeed",
+        "onlyChanges": false,
+        "x": 3490,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "9d631a3494466ae9",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "Set: 3",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "3",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 3110,
+        "y": 1200,
+        "wires": [
+            [
+                "3c79d3c21abb1168",
+                "faed9badbde82bf7"
+            ]
+        ]
+    },
+    {
+        "id": "3c79d3c21abb1168",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+            "name": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+            "type": "number"
+        },
+        "name": "StatusFanspeed",
+        "onlyChanges": false,
+        "x": 3320,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "faed9badbde82bf7",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/SetFanspeed",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/SetFanspeed",
+            "name": "/Settings/RoadbuckMods/MaxxFan/SetFanspeed",
+            "type": "number"
+        },
+        "name": "SetFanspeed",
+        "onlyChanges": false,
+        "x": 3490,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "60b8c0d97c68ac36",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "Set: 5",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "5",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 3110,
+        "y": 1260,
+        "wires": [
+            [
+                "8cf18b5ff77aed55",
+                "d91fbff6463ef32b"
+            ]
+        ]
+    },
+    {
+        "id": "8cf18b5ff77aed55",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+            "name": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+            "type": "number"
+        },
+        "name": "StatusFanspeed",
+        "onlyChanges": false,
+        "x": 3320,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "d91fbff6463ef32b",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/SetFanspeed",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/SetFanspeed",
+            "name": "/Settings/RoadbuckMods/MaxxFan/SetFanspeed",
+            "type": "number"
+        },
+        "name": "SetFanspeed",
+        "onlyChanges": false,
+        "x": 3490,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "e898749dbe75c332",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "Set: 10",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "10",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 3120,
+        "y": 1320,
+        "wires": [
+            [
+                "86b03165fe54d32a",
+                "e00bb71d034a2ff5"
+            ]
+        ]
+    },
+    {
+        "id": "86b03165fe54d32a",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+            "name": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+            "type": "number"
+        },
+        "name": "StatusFanspeed",
+        "onlyChanges": false,
+        "x": 3320,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "e00bb71d034a2ff5",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/SetFanspeed",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/SetFanspeed",
+            "name": "/Settings/RoadbuckMods/MaxxFan/SetFanspeed",
+            "type": "number"
+        },
+        "name": "SetFanspeed",
+        "onlyChanges": false,
+        "x": 3490,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "fb3164ba815ee5f6",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "Set: 5",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "5",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 3110,
+        "y": 1380,
+        "wires": [
+            [
+                "9a27f9ce0c1ca7b3",
+                "28df0afc0de19f96"
+            ]
+        ]
+    },
+    {
+        "id": "9a27f9ce0c1ca7b3",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+            "name": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+            "type": "number"
+        },
+        "name": "StatusFanspeed",
+        "onlyChanges": false,
+        "x": 3320,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "28df0afc0de19f96",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/SetFanspeed",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/SetFanspeed",
+            "name": "/Settings/RoadbuckMods/MaxxFan/SetFanspeed",
+            "type": "number"
+        },
+        "name": "SetFanspeed",
+        "onlyChanges": false,
+        "x": 3490,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "ccce6d1f82b63d22",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/StatusAirflow",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/StatusAirflow",
+            "name": "/Settings/RoadbuckMods/MaxxFan/StatusAirflow",
+            "type": "string"
+        },
+        "name": "StatusAirflow",
+        "onlyChanges": false,
+        "x": 3310,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "fe88a9b325fb0348",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "Set: in",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "in",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 3110,
+        "y": 1440,
+        "wires": [
+            [
+                "ccce6d1f82b63d22"
+            ]
+        ]
+    },
+    {
+        "id": "d867185622ae57cf",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "Set: 0",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 3110,
+        "y": 1500,
+        "wires": [
+            [
+                "534a90cb004a4cf6",
+                "17a06532c21d580f"
+            ]
+        ]
+    },
+    {
+        "id": "534a90cb004a4cf6",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+            "name": "/Settings/RoadbuckMods/MaxxFan/StatusFanspeed",
+            "type": "number"
+        },
+        "name": "StatusFanspeed",
+        "onlyChanges": false,
+        "x": 3320,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "17a06532c21d580f",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/SetFanspeed",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/SetFanspeed",
+            "name": "/Settings/RoadbuckMods/MaxxFan/SetFanspeed",
+            "type": "number"
+        },
+        "name": "SetFanspeed",
+        "onlyChanges": false,
+        "x": 3490,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "bfd853dd844e88d7",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/StatusAirflow",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/StatusAirflow",
+            "name": "/Settings/RoadbuckMods/MaxxFan/StatusAirflow",
+            "type": "string"
+        },
+        "name": "StatusAirflow",
+        "onlyChanges": false,
+        "x": 3310,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "c3faba246a70e403",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "1a0c574d01faf84e",
+        "name": "Set: out",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "out",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 3120,
+        "y": 1080,
+        "wires": [
+            [
+                "bfd853dd844e88d7"
+            ]
+        ]
+    },
+    {
+        "id": "8fa6f1fb4731d056",
+        "type": "mqtt in",
+        "z": "ea9d3508e6e817af",
+        "g": "a8fb6eb49d1d087e",
+        "name": "",
+        "topic": "RB_MaxxFan_WiFi/firmware",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "cf323645439c0e88",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 260,
+        "y": 620,
+        "wires": [
+            [
+                "f1fc3b9f89ba0990",
+                "824956e195e8beec",
+                "15c250acaeb16e38"
+            ]
+        ]
+    },
+    {
+        "id": "f1fc3b9f89ba0990",
+        "type": "debug",
+        "z": "ea9d3508e6e817af",
+        "g": "a8fb6eb49d1d087e",
+        "name": "debug 46",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 500,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "824956e195e8beec",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "a8fb6eb49d1d087e",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/Firmware",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/Firmware",
+            "name": "/Settings/RoadbuckMods/MaxxFan/Firmware",
+            "type": "string"
+        },
+        "name": "MaxxFan Firmware",
+        "onlyChanges": false,
+        "x": 1010,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "9c22f5b3ccb7fff0",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "g": "a8fb6eb49d1d087e",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/IP",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/IP",
+            "name": "/Settings/RoadbuckMods/MaxxFan/IP",
+            "type": "string"
+        },
+        "name": "MaxxFan WiFi IP",
+        "onlyChanges": false,
+        "x": 1010,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "e53b0bcfa0603708",
+        "type": "mqtt in",
+        "z": "ea9d3508e6e817af",
+        "g": "a8fb6eb49d1d087e",
+        "name": "",
+        "topic": "RB_MaxxFan_WiFi/ip",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "cf323645439c0e88",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 680,
+        "wires": [
+            [
+                "0e8bf35b13cbd058",
+                "9c22f5b3ccb7fff0",
+                "b9d67405d39b465b"
+            ]
+        ]
+    },
+    {
+        "id": "0e8bf35b13cbd058",
+        "type": "debug",
+        "z": "ea9d3508e6e817af",
+        "g": "a8fb6eb49d1d087e",
+        "name": "debug 47",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 500,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "15c250acaeb16e38",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "a8fb6eb49d1d087e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "WiFi_Firmware",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 750,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b9d67405d39b465b",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "g": "a8fb6eb49d1d087e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "WiFi_ModuleIP",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 750,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1c3cfea6fd6d277d",
+        "type": "victron-input-custom",
+        "z": "ea9d3508e6e817af",
+        "d": true,
+        "g": "bdb000e48e48752a",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/ConnectionType",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/ConnectionType",
+            "name": "/Settings/RoadbuckMods/MaxxFan/ConnectionType",
+            "type": "number"
+        },
+        "name": "Connection Type",
+        "onlyChanges": true,
+        "x": 2420,
+        "y": 140,
+        "wires": [
+            [
+                "107b3561e018abaf"
+            ]
+        ]
+    },
+    {
+        "id": "107b3561e018abaf",
+        "type": "switch",
+        "z": "ea9d3508e6e817af",
+        "d": true,
+        "g": "bdb000e48e48752a",
+        "name": "2?",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 2570,
+        "y": 140,
+        "wires": [
+            [
+                "39e318752132934c"
+            ],
+            [
+                "c7b16313359e81ac",
+                "6619c0de43352c19"
+            ]
+        ]
+    },
+    {
+        "id": "39e318752132934c",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "d": true,
+        "g": "bdb000e48e48752a",
+        "name": "payload \"---\"",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "---",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2730,
+        "y": 100,
+        "wires": [
+            [
+                "02add44b68776a2d",
+                "21244bb5bdbb0347"
+            ]
+        ]
+    },
+    {
+        "id": "c7b16313359e81ac",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "d": true,
+        "g": "bdb000e48e48752a",
+        "name": "payload: Firmware",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "WiFi_Firmware",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2750,
+        "y": 160,
+        "wires": [
+            [
+                "02add44b68776a2d"
+            ]
+        ]
+    },
+    {
+        "id": "02add44b68776a2d",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "d": true,
+        "g": "bdb000e48e48752a",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/Firmware",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/Firmware",
+            "name": "/Settings/RoadbuckMods/MaxxFan/Firmware",
+            "type": "string"
+        },
+        "name": "WiFi Firmware",
+        "onlyChanges": false,
+        "x": 3000,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "21244bb5bdbb0347",
+        "type": "victron-output-custom",
+        "z": "ea9d3508e6e817af",
+        "d": true,
+        "g": "bdb000e48e48752a",
+        "service": "com.victronenergy.settings",
+        "path": "/Settings/RoadbuckMods/MaxxFan/IP",
+        "serviceObj": {
+            "service": "com.victronenergy.settings",
+            "name": "com.victronenergy.settings"
+        },
+        "pathObj": {
+            "path": "/Settings/RoadbuckMods/MaxxFan/IP",
+            "name": "/Settings/RoadbuckMods/MaxxFan/IP",
+            "type": "string"
+        },
+        "name": "WiFi IP",
+        "onlyChanges": false,
+        "x": 2980,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "6619c0de43352c19",
+        "type": "change",
+        "z": "ea9d3508e6e817af",
+        "d": true,
+        "g": "bdb000e48e48752a",
+        "name": "payload: IP",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "WiFi_ModuleIP",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2730,
+        "y": 200,
+        "wires": [
+            [
+                "21244bb5bdbb0347"
+            ]
+        ]
+    },
+    {
+        "id": "cea36072097d12f6",
+        "type": "debug",
+        "z": "ea9d3508e6e817af",
+        "g": "463fb91c39d09fcd",
+        "name": "debug 48",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 420,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "4df6339dc46e3e67",
+        "type": "switch",
+        "z": "ea9d3508e6e817af",
+        "g": "a8fb6eb49d1d087e",
+        "name": "UseInternalSensor = 1 ?",
+        "property": "UseInternalSensor",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 550,
+        "y": 360,
+        "wires": [
+            [
+                "b67d8f52bf4ac9e8"
+            ]
+        ]
+    },
+    {
+        "id": "6beaf598551c2103",
+        "type": "mqtt in",
+        "z": "ea9d3508e6e817af",
+        "g": "34e2960c533872d3",
+        "name": "Button Pressed",
+        "topic": "RB_MaxxFan_WiFi/button_pressed",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "cf323645439c0e88",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 2420,
+        "y": 420,
+        "wires": [
+            [
+                "6659864588701192",
+                "1ff97f1dac963f51"
+            ]
+        ]
+    },
+    {
+        "id": "70542ad21a6e983e",
+        "type": "mqtt in",
+        "z": "ea9d3508e6e817af",
+        "g": "34e2960c533872d3",
+        "name": "Status Open",
+        "topic": "RB_MaxxFan_WiFi/status_open",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "cf323645439c0e88",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 2420,
+        "y": 480,
+        "wires": [
+            [
+                "93024955c8a046d0",
+                "d683a5c2e74ca584"
+            ]
+        ]
+    },
+    {
+        "id": "6659864588701192",
+        "type": "switch",
+        "z": "ea9d3508e6e817af",
+        "g": "34e2960c533872d3",
+        "name": "Is short?",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "short",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 2620,
+        "y": 420,
+        "wires": [
+            [
+                "042e1d213486b7d9",
+                "65f3fa2965e8b4a4"
+            ]
+        ]
+    },
+    {
+        "id": "93024955c8a046d0",
+        "type": "function",
+        "z": "ea9d3508e6e817af",
+        "g": "34e2960c533872d3",
+        "name": "Store status_open",
+        "func": "flow.set('status_open', msg.payload);\nreturn null;",
+        "outputs": 0,
+        "noerr": 0,
+        "x": 2630,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "042e1d213486b7d9",
+        "type": "function",
+        "z": "ea9d3508e6e817af",
+        "g": "34e2960c533872d3",
+        "name": "Decide open/close",
+        "func": "let status = flow.get('status_open');\n\nif (status === undefined) {\n    node.warn(\"status_open not received yet\");\n    return null;\n}\n\nlet out = {};\nif (status === 0) {\n    out.payload = \"open\";\n} else if (status === 1) {\n    out.payload = \"close\";\n} else {\n    node.warn(\"Unknown status_open value: \" + status);\n    return null;\n}\nreturn out;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2840,
+        "y": 420,
+        "wires": [
+            [
+                "17abf2be9c677101",
+                "b6593aa7eab894ab",
+                "1695651a2dd7804c"
+            ]
+        ]
+    },
+    {
+        "id": "c3735f3cf14bdd6a",
+        "type": "mqtt out",
+        "z": "ea9d3508e6e817af",
+        "g": "34e2960c533872d3",
+        "name": "Send command",
+        "topic": "RB_MaxxFan_WiFi/command",
+        "qos": "0",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "cf323645439c0e88",
+        "x": 3300,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "318a595b49f90384",
+        "type": "function",
+        "z": "ea9d3508e6e817af",
+        "g": "34e2960c533872d3",
+        "name": "Reset button to ---",
+        "func": "msg.payload = \"---\";\n//msg.topic = \"RB_MaxxFan_WiFi/button_pressed\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3310,
+        "y": 480,
+        "wires": [
+            [
+                "aae8ad983b870cd6",
+                "f17f89b006a45777"
+            ]
+        ]
+    },
+    {
+        "id": "aae8ad983b870cd6",
+        "type": "mqtt out",
+        "z": "ea9d3508e6e817af",
+        "g": "34e2960c533872d3",
+        "name": "Reset button topic",
+        "topic": "RB_MaxxFan_WiFi/button_pressed",
+        "qos": "0",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "cf323645439c0e88",
+        "x": 3520,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "1ff97f1dac963f51",
+        "type": "debug",
+        "z": "ea9d3508e6e817af",
+        "g": "34e2960c533872d3",
+        "name": "debug 46",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 2710,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "d683a5c2e74ca584",
+        "type": "debug",
+        "z": "ea9d3508e6e817af",
+        "g": "34e2960c533872d3",
+        "name": "debug 47",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 2590,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "17abf2be9c677101",
+        "type": "debug",
+        "z": "ea9d3508e6e817af",
+        "g": "34e2960c533872d3",
+        "name": "debug 48",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 3210,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "95cef75a819bea94",
+        "type": "debug",
+        "z": "ea9d3508e6e817af",
+        "g": "34e2960c533872d3",
+        "name": "debug 49",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 3210,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "f17f89b006a45777",
+        "type": "debug",
+        "z": "ea9d3508e6e817af",
+        "g": "34e2960c533872d3",
+        "name": "debug 50",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 3500,
+        "y": 550,
+        "wires": []
+    },
+    {
+        "id": "65f3fa2965e8b4a4",
+        "type": "debug",
+        "z": "ea9d3508e6e817af",
+        "g": "34e2960c533872d3",
+        "name": "debug 51",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 2900,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "b6593aa7eab894ab",
+        "type": "delay",
+        "z": "ea9d3508e6e817af",
+        "g": "34e2960c533872d3",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 3100,
+        "y": 400,
+        "wires": [
+            [
+                "c3735f3cf14bdd6a"
+            ]
+        ]
+    },
+    {
+        "id": "1695651a2dd7804c",
+        "type": "delay",
+        "z": "ea9d3508e6e817af",
+        "g": "34e2960c533872d3",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 3100,
+        "y": 480,
+        "wires": [
+            [
+                "318a595b49f90384"
+            ]
+        ]
+    },
+    {
+        "id": "cf323645439c0e88",
+        "type": "mqtt-broker",
+        "name": "Venus OS Large",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "5ea3b7e1715ae95a",
+        "type": "serial-port",
+        "name": "",
+        "serialport": "/dev/ttyUSB0",
+        "serialbaud": "115200",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "0",
+        "bin": "bin",
+        "out": "time",
+        "addchar": "",
+        "responsetimeout": "10000"
+    }
+]
