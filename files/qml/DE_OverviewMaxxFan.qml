@@ -98,9 +98,40 @@ OverviewPage {
 				 height: 33 // 21 // 27 // 42  // 28
 				 }
 
+// ----------------------------------------------------------------------------- Uhr
+
+
+		 Timer {
+		 				id: wallClock
+		 				running: true
+		 				repeat: true
+		 				interval: 1000
+		 				triggeredOnStart: true
+		 				onTriggered: time = Qt.formatDateTime(new Date(), ('hh:mm'))
+		 				property string time
+		 		}
+
+		 		TileText
+		 					{
+		 						text: wallClock.time
+								visible: debug_mode == 0 && service_mode == 0
+		 						x: 160
+		 						y: 10
+		 						width:160
+		 						height:40
+		 						font.pixelSize: 40
+		 						font.bold: true
+		 						horizontalAlignment: Text.Center
+
+		 						anchors{
+		 									top: parent.top; topMargin: 10
+		 								}
+
+		 					}
+
 //------------------------------------------------------------------------- DEBUG_MODE_BUTTON
 MouseArea {
-
+		id: debugModeCounter
     x: 10
     y: 10
     width: 80
@@ -119,7 +150,7 @@ MouseArea {
 }
 
 MouseArea {
-
+		id: debutModeButton
     x: 10
     y: 10
     width: 80
@@ -128,12 +159,13 @@ MouseArea {
     onClicked: debug_mode = 0
 
 }
+
 //------------------------------------------------------------------------- SERVICE_MODE_BUTTON
 MouseArea {
 
-    x: 425
+    x: 200
     y: 10
-    width: 80
+		width: 80
     height: 40
     visible: service_mode == 0
     onClicked: {
@@ -146,65 +178,6 @@ MouseArea {
 					service_mode = 1;
 				}
 		}
-
-}
-
-MouseArea {
-
-    x: 420
-    y: 10
-    width: 80
-    height: 40
-    visible: service_mode == 1
-    onClicked: service_mode = 0
-}
-
-MbIcon {
-	iconId: "rb_button_off"
-	rotation: 0
-	x:425
-	y:13
-	width: 40
-	height: 40
-	visible: false
-}
-
-MbIcon {
-	iconId: "rb_button_on"
-	rotation: 0
-	x: 390
-	y: 13
-	width: 40
-	height: 40
-	visible: false
-}
-
-MouseArea {
-	id: button_off_area
-		enabled: false
-	x: 428
-	y: 15
-	width:35
-	height:35
-	onClicked: {
-		mqttIrSignal.setValue ("b")
-		mqttPower.setValue ("on")
-	}
-}
-
-
-MouseArea {
-	id: button_on_area
-	enabled: false
-	x: 390 //428
-	y: 15
-	width:35
-	height:35
-	onClicked: {
-		mqttIrSignal.setValue ("a")
-		mqttPower.setValue ("off")
-	}
-}
 
 Button{
 					id: button_Reboot
@@ -295,6 +268,33 @@ Button{
 
 				}
 
+Button{
+					id: button_ExitTestMode
+					x: 415
+					y: 15
+					width: 30
+					height: 30
+					radius: 5
+					baseColor: maxxfan_status_testmode.value == 0 ? "#4C6981" : "#ff0000"
+					pressedColor: "#3399ff"
+					visible: debug_mode == 0 && service_mode == 1
+
+					onClicked: {
+							service_mode = 0
+						}
+
+					TileText {
+						text: "X"
+						font.pixelSize: 12
+						font.bold: true
+						color: "#ffffff"
+						anchors{
+							horizontalCenter: button_ExitTestMode.horizontalCenter
+							verticalCenter: button_ExitTestMode.verticalCenter
+							}
+					}
+
+				}
 
 //------------------------------------------------------------------------------------------- DEBUGGER
 
@@ -560,6 +560,7 @@ OverviewBoxMaxxFan{
 				rotation: 0
 				width: 30
 				height: 30
+				opacity: maxxfan_status_automode.value == 1 ? 1 : 0.4
 				anchors{
 					horizontalCenter: secondBox.horizontalCenter
 				}
@@ -590,6 +591,7 @@ Rectangle {
 TileText
 				{
 					y: 50
+					opacity: maxxfan_status_automode.value == 1 ? 1 : 0.4
 					text: fanTemperature
 					font.pixelSize: 35
 					font.bold: true
@@ -601,6 +603,7 @@ MouseArea {
 	y:95
 	width: 55
 	height: 55
+	enabled: maxxfan_status_automode.value  == 1
   onClicked: {
 			if (fanTemperature < 37)
 			return fanTemperature = (fanTemperature + 1)
@@ -611,7 +614,7 @@ MouseArea {
 				rotation: 0
 				x:10
 				y:95
-				opacity: fanTemperature < 37 ? 1 : 0.4
+				opacity: (fanTemperature < 37 ? 1 : 0.4) && (maxxfan_status_automode.value == 1 ? 1 : 0.4)
 				width: 55
 				height: 55
 				}
@@ -621,6 +624,7 @@ MouseArea {
 	y:140
 	width: 55
 	height: 55
+	enabled: maxxfan_status_automode.value  == 1
   onClicked: {
 			if (fanTemperature > -2)
 			return fanTemperature = (fanTemperature - 1)
@@ -631,7 +635,7 @@ MouseArea {
 				rotation: 0
 				x:10
 				y:140
-				opacity: fanTemperature > -2 ? 1 : 0.4
+				opacity: (fanTemperature > -2 ? 1 : 0.4) && (maxxfan_status_automode.value == 1 ? 1 : 0.4)
 				width: 55
 				height: 55
 				}
