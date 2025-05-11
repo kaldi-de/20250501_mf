@@ -50,6 +50,8 @@ OverviewPage {
 
 	property VBusItem image_animation: VBusItem { bind: "com.victronenergy.settings/Settings/RoadbuckMods/MaxxFan/ImageAnimation" }  // 0 or 1
 
+	property VBusItem maxxfan_apmode: VBusItem { bind: "com.victronenergy.settings/Settings/RoadbuckMods/MaxxFan/APMode" }  // 0 or 1
+
 	// Temperaturauswahl
 	property int fanTemperature: maxxfan_status_temperature.value
 	property int setTemperature: maxxfan_status_temperature.value
@@ -178,6 +180,7 @@ MouseArea {
 					service_mode = 1;
 				}
 		}
+}
 
 Button{
 					id: button_Reboot
@@ -209,6 +212,15 @@ Button{
 
 				}
 
+Timer {
+				  id: resetTimerAPMode
+				  interval: 120000 // 120 Sekunden / 2 Minuten
+				  repeat: false // Der Timer soll nur einmal ablaufen
+				  onTriggered: {
+				      maxxfan_apmode.setValue(0) // Setze APMode auf 0, wenn der Timer abläuft
+				  }
+				}
+
 Button{
 					id: button_APMode
 					x: 160+75+10
@@ -216,11 +228,13 @@ Button{
 					width: 75
 					height: 30
 					radius: 5
-					baseColor: "#4C6981"
+					baseColor: maxxfan_apmode.value == 0 ? "#4C6981" : "#ff0000"
 					pressedColor: "#3399ff"
 					visible: debug_mode == 0 && service_mode == 1
 
 					onClicked: {
+							maxxfan_apmode.setValue(1)
+							resetTimerAPMode.start() // Starte den Timer, wenn der Button gedrückt wird
 							maxxfan_ir_signal.setValue("start_ap")
 						}
 
