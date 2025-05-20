@@ -96,6 +96,10 @@ files_to_copy = [
         'destination': '/opt/victronenergy/gui/qml/PageSettingsRoadbuckRelayBox.qml'
     },
     {
+        'source': '/data/RoadbuckMods/MaxxFan/files/qml/DE_PageSettingsRoadbuckRelayBox.qml',
+        'destination': '/opt/victronenergy/gui/qml/PageSettingsRoadbuckEcoFlow.qml'
+    },
+    {
         'source': '/data/RoadbuckMods/MaxxFan/files/images/rb_button_minus.svg',
         'destination': '/opt/victronenergy/themes/ccgx/images/rb_button_minus.svg'
     },
