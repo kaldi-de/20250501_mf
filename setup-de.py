@@ -96,7 +96,7 @@ files_to_copy = [
         'destination': '/opt/victronenergy/gui/qml/PageSettingsRoadbuckRelayBox.qml'
     },
     {
-        'source': '/data/RoadbuckMods/MaxxFan/files/qml/DE_PageSettingsRoadbuckRelayBox.qml',
+        'source': '/data/RoadbuckMods/MaxxFan/files/qml/DE_PageSettingsRoadbuckEcoFlow.qml',
         'destination': '/opt/victronenergy/gui/qml/PageSettingsRoadbuckEcoFlow.qml'
     },
     {
@@ -118,6 +118,10 @@ files_to_copy = [
     {
         'source': '/data/RoadbuckMods/MaxxFan/files/images/rb_humidity.svg',
         'destination': '/opt/victronenergy/themes/ccgx/images/rb_humidity.svg'
+    },
+    {
+        'source': '/data/RoadbuckMods/MaxxFan/files/images/rb_in_out_arrow_blue.svg',
+        'destination': '/opt/victronenergy/themes/ccgx/images/rb_in_out_arrow_blue.svg'
     },
     {
         'source': '/data/RoadbuckMods/MaxxFan/files/images/rb_maxxfan_icon_base.svg',
